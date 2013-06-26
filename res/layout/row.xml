@@ -9,27 +9,8 @@
     tools:context=".MainActivity" >
 
     <TextView
-        android:id="@+id/textStatus"
+        android:id="@+id/list_value"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/hello_world" />
-
-    <Button
-        android:id="@+id/buttonScan"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textStatus"
-        android:layout_below="@+id/textStatus"
-        android:layout_marginTop="19dp"
-        android:text="Scan" />
-
-    <ListView
-        android:id="@+id/list"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/buttonScan"
-        android:layout_below="@+id/buttonScan"
-        android:layout_marginTop="26dp" >
-    </ListView>
-
 </RelativeLayout>
